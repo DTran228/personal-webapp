@@ -1,5 +1,5 @@
 services:
-  posegres:
+  postgres:
     image: postgres:16-alpine
     environment:
       POSTGRES_USER: dev
