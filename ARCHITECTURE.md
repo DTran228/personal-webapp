@@ -227,7 +227,7 @@ volumes:
 | # | Milestone | Nội dung | Ước lượng |
 |---|---|---|---|
 | 1 | Skeleton | docker-compose, Express hello-world, Vite app, kết nối DB | 1–2 ngày |
-| 2 | Auth | Register/login/JWT/refresh token, protected routes | 2–3 ngày |
+| 2 | Auth | Register/login/JWT/refresh token, protected routes, token bucket rate limiter (Redis) trên các endpoint auth để chống brute-force | 3–4 ngày |
 | 3 | Quotes + Redis | Finnhub client, cache-aside, endpoint quotes — **trái tim của project** | 2–3 ngày |
 | 4 | Portfolio CRUD | Portfolios, transactions, tính PnL (kèm unit tests) | 3–4 ngày |
 | 5 | Dashboard UI | Holdings table, PnL chart (Recharts), form thêm giao dịch | 3–4 ngày |
